@@ -47,18 +47,12 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		
 		<!-- AWS SDK para DynamoDB -->
 		<dependency>
 			<groupId>software.amazon.awssdk</groupId>
 			<artifactId>dynamodb</artifactId>
 			<version>2.24.12</version>
-		</dependency>
-
-		<!-- Spring Data DynamoDB (de comunidad) -->
-		<dependency>
-			<groupId>com.github.derjust</groupId>
-			<artifactId>spring-data-dynamodb</artifactId>
-			<version>5.1.0</version>
 		</dependency>
 
 	</dependencies>
